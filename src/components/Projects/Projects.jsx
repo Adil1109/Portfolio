@@ -11,9 +11,9 @@ const Projects = () => {
 					Recent <span className='green'>Projects</span>
 				</h1>
 				<p>
-					I charge $300 for building a moderate site and $400 for building a
-					moderate app! However, This may vary high or less according to clients
-					requirements and services they want!
+					Want to hire us? But need quality assurance? Want to clear your doubts
+					before hiring us? Then you can check the recent projects that we
+					worked on.
 				</p>
 			</Zoom>
 			<Slide>

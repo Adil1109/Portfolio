@@ -10,7 +10,7 @@ const Project = (props) => {
 				<h1>Description</h1>
 				<p>
 					{disc}
-					<a href={`${link}`} target='_blank'>
+					<a href={`${link}`} target='_blank' rel='noreferrer'>
 						See Code
 					</a>
 				</p>

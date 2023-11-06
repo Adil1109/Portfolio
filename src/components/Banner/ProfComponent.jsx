@@ -4,8 +4,9 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { Slide } from 'react-awesome-reveal';
 import { FiPhoneCall } from 'react-icons/fi';
-import { AiFillGithub } from 'react-icons/ai';
+import { AiFillGithub, AiFillYoutube } from 'react-icons/ai';
 import { BsFacebook } from 'react-icons/bs';
+import { FaFacebookSquare } from 'react-icons/fa';
 
 const ProfComponent = () => {
 	return (
@@ -28,7 +29,7 @@ const ProfComponent = () => {
 						Node.js, React Native, and Next.js enables me to deliver efficient,
 						scalable, and high-performance applications.
 					</p>
-					<a href='mailto:jhograittaada11@gmail.com'>Let's talk</a>
+					<a href='mailto:mdadilhossain2006@outlook.com'>Let's talk</a>
 					<Social>
 						<p>Check out my</p>
 						<div className='social-icons'>
@@ -39,28 +40,50 @@ const ProfComponent = () => {
 							</span>
 							<span>
 								<a
-									href='https://www.facebook.com/md.adil.hossain1109'
-									target='_blank'>
+									href='https://www.facebook.com/profile.php?id=61553528720054'
+									target='_blank'
+									rel='noreferrer'>
 									<BsFacebook />
 								</a>
 							</span>
+
 							<span>
 								<a
-									href='https://www.instagram.com/adil.s_profile/'
-									target='_blank'>
-									<AiOutlineInstagram />
-								</a>
-							</span>
-							<span>
-								<a href='https://github.com/Adil1109' target='_blank'>
+									href='https://github.com/Adil1109'
+									target='_blank'
+									rel='noreferrer'>
 									<AiFillGithub />
 								</a>
 							</span>
+
 							<span>
 								<a
-									href='https://www.linkedin.com/in/md-adil-hossain-ab0462165/'
-									target='_blank'>
+									href='https://www.youtube.com/@programmingwithadil'
+									target='_blank'
+									rel='noreferrer'>
+									<AiFillYoutube />
+								</a>
+							</span>
+							<span>
+								<a href='www.linkedin.com/in/md-adil-hossain' target='_blank'>
 									<FaLinkedinIn />
+								</a>
+							</span>
+							<span>
+								<a
+									href='https://www.facebook.com/md.adil.hossain.yt'
+									target='_blank'
+									rel='noreferrer'>
+									<FaFacebookSquare />
+								</a>
+							</span>
+
+							<span>
+								<a
+									href='https://www.instagram.com/adil.s_profile/'
+									target='_blank'
+									rel='noreferrer'>
+									<AiOutlineInstagram />
 								</a>
 							</span>
 						</div>
