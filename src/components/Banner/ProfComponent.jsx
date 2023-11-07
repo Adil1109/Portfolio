@@ -31,7 +31,7 @@ const ProfComponent = () => {
 					</p>
 					<a href='mailto:mdadilhossain2006@outlook.com'>Let's talk</a>
 					<Social>
-						<p>Check out my</p>
+						<h4>Check out my :</h4>
 						<div className='social-icons'>
 							<span>
 								<a href='tel:+8801889633270'>
@@ -174,18 +174,15 @@ const Texts = styled.div`
 const Social = styled.div`
 	margin-top: 3rem;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	align-items: flex-start;
 	gap: 1rem;
-	p {
-		font-size: 0.9rem;
-		@media (max-width: 690px) {
-			font-size: 0.7rem;
-		}
-	}
 
 	.social-icons {
 		display: flex;
 		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
 		gap: 1rem;
 		span {
 			width: 2.3rem;
